@@ -1,0 +1,1 @@
+//manipulação Front-end neste ficheiro - em JavaScript ofc
