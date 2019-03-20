@@ -10,13 +10,16 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
 app.route('/')
-  .get(function(req, res){
+  .get(function (req, res) {
     res.render('home');
   });
 
 
-const port = 3000;
+let port = process.env.PORT;
+if (port == null || port == '') {
+  port = 3000;
+}
 
-app.listen(port, function(){
+app.listen(port, function () {
   console.log('Server started for Firespace WebSite on port 3000');
 });
