@@ -5,22 +5,66 @@
   <title>Firespace</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
   <link rel="stylesheet" type="text/css" media="screen" href="/css/styles.css">
+  <link rel= "shortcut icon" href= "sprites/FireSpace.png"/>
+  <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
+  <div id="top"></div>
   <div class="header">
     <nav>
       <ul>
-        <li class="li-mission">Missão</li>
-        <li class="li-objective">Objetivos</li>
+        <a id="Us" class="li-nav li-us left" href="#Somos">Quem Somos</a>
+        <a id="Mission" class="li-nav li-mission left" href="#Missao">Missão</a>
+        <a id="logo" class="li-nav li-logo" href="#top"><img class="li-logo-dark" src="sprites/FireSpaceBlue.png"></a>
+        <a id="Method" class="li-nav li-methods right" href="#Metodo">Metodologia</a>
+        <a id="Objs"class="li-nav li-objective right" href="#Objtvs">Objetivos</a>
       </ul>
     </nav>
   </div>
+  <br><br><br><br><br><br>
+  <h2>Making what for others is impossible</h2>
+
+  <!--Carrossel-->
   <div class="playerSection">
-    <div class="player"></div>
+    <!--<div class="player"></div>-->
+    <img src="sprites/nature-forest-trees-fog.jpeg">
   </div>
+
+  <!-- Body-->
   <div class="section1">
-    <h1>Missão TESTE</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Dictum varius duis at consectetur lorem donec massa sapien faucibus. Eget nunc scelerisque viverra mauris. Eu turpis egestas pretium aenean. Maecenas pharetra convallis posuere morbi leo urna. Egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien. Nunc mattis enim ut tellus elementum sagittis vitae. Bibendum arcu vitae elementum curabitur vitae. Gravida dictum fusce ut placerat orci nulla pellentesque dignissim enim. Egestas purus viverra accumsan in nisl nisi scelerisque eu. Sit amet volutpat consequat mauris nunc congue. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida. Sed velit dignissim sodales ut eu sem integer vitae justo. Eros in cursus turpis massa tincidunt. Et malesuada fames ac turpis egestas sed tempus urna. Odio tempor orci dapibus ultrices in. Fusce id velit ut tortor pretium viverra. Fermentum iaculis eu non diam phasellus vestibulum lorem sed risus. Eget magna fermentum iaculis eu non diam. Odio morbi quis commodo odio aenean. Pellentesque elit eget gravida cum sociis natoque penatibus et. Elit sed vulputate mi sit amet mauris commodo quis. Enim eu turpis egestas pretium aenean pharetra magna ac. Non enim praesent elementum facilisis leo vel. Gravida neque convallis a cras semper auctor neque. Placerat duis ultricies lacus sed turpis tincidunt id aliquet risus. Sed risus ultricies tristique nulla aliquet enim tortor at auctor. Mattis vulputate enim nulla aliquet porttitor. Elit eget gravida cum sociis.</p>
+    <h1 id="Somos">Quem somos</h1>
+    <p>Já parou para pensar se todos os grandes incêndios não passassem de um pequeno susto? Já pensou se todas as vidas perdidas em grandes desastres fossem salvas? Se todas as áreas estivessem a salvo, poupando assim a biodiversidade, muita dela extinta sem se quer ser catalogada, já pensou?</p><br>
+    <p>Pois foi pensando nisso que alunos de Engenharia de diversas Universidades em Portugal e no Brasil se debruçaram sobre esse desafio para desenvolver uma tecnologia para acabar de vez com os danos que vem durante décadas causando dor, sofrimento e prejuízos de milhares de euros, gastando fortunas do dinheiro do contribuinte com sistemas ineficientes, morosos e muitas vezes corruptos.</p><br>
+    <p><img class="txt-img" src="sprites/ProjetoFenix.png">Com uma equipa jovem, dinâmica, que aceita o desafio de pensar a frente do seu tempo e de fazer aquilo que para os outros é impossível, distribuída em três grandes frentes, sendo elas Desenvolvimento e Manutenção Aeronáutica e Aeroespacial, Gestão e Engenharia Ambiental, Tecnologia da Informação e Desenvolvimento Informático, o FÊNIX nasce como um projeto inovador, que usará como base para recolha de dados um satélite, uma central com monitorização vinte e quatro horas por dia, a fim de garantir o alerta as autoridades competentes ao fim de dois minutos do início do menor foco, com todas as informações necessárias para garantir a maior eficácia no combate, e também atuando na vigília do rescaldo visando garantir que caso haja reacendimento, o mesmo será combatido com a mesma veemência, de modo que se usem a menor quantidade de recursos possíveis, sem jamais negligenciar a segurança ao combate de incêndios, o apoio à população, locais históricos, e preservação da nossa biodiversidade.</p><br><br>
+    <p>Para conhecer e saber mais sobre esse incrível projeto que irá revolucionar o modo como lidamos com os incêndios, contacte-nos através de info@firespace.pt</p>
+    <!--
+    <h1 id="Missao">Missão</h1>
+    <p>Colocar em órbita durante o ano de 2019, o primeiro satélite desenvolvido quase que na sua totalidade em Portugal, que com a audácia e o pioneirismo daqueles que pensam à frente do seu tempo, e buscam entregar um produto que realmente mude a vida de toda uma população, colmatando tragédias e devastações que tantos prejuízos nos tem acarretado ao longo de décadas.</p>
+
+
+    <h1 id="Objtvs">Objetivos</h1>
+    <p>O presente projeto tem como objetivos principais a previsão, e o alerta antecipado de incêndios, com base num conjunto de dados captados pelo CubeSat (Satélite de dimensionamento cúbico, em via de regra se enquadrando entre os nano e os microssatélites), realizando o tratamento desses dados numa central localizada no Norte de Portugal, entregando de forma refinada as informações sobre modo de evolução das ocorrências, meios mais efetivos de combate, e melhores rotas para se chegar ao local.</p><br>
+
+    <p>Realizar a monitorização/acompanhamento das ocorrências, a fim de garantir a maior eficiência no combate aos incêndios, rescaldos e reacendimentos.</p><br>
+
+    <p>Estudos sobre influência térmica no dia-a-dia, gerando dados para que possam ser tratados por outras entidades, realizando cooperações para melhoria da qualidade de vida dos cidadãos.</p>
+
+
+    <h1 id="Metodo">Metodologia</h1>
+    <p>Com uma órbita geoestacionária de 1200 km, o CubeSat deverá ser capaz de captar, coletar e transmitir a taxa de 1 imagem por segundo, garantindo assim a fiabilidade dos dados, que são eles respectivamente:</p>
+    <ul>
+        <li>Temperatura;</li>
+        <li>Húmidade Relativa;</li>
+        <li>Vento Relativo;</li>
+        <li>Coordenadas Geográficas Dos Focos;</li>
+    </ul>
+-->
+  </div>
+
+  <!--Footer-->
+  <div class="footer">
+    <h4>Contactos</h4>
+>>>>>>> 198c908d14912ca6b446e31f6745e853f7cbb533
   </div>
   <script src="/main.js"></script>
 </body>
