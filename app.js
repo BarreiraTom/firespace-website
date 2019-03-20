@@ -14,6 +14,10 @@ app.route('/')
     res.render('home');
   });
 
+app.route('/equipa')
+  .get(function(req, res){
+    res.render('equipa');
+  });
 
 let port = process.env.PORT;
 if (port == null || port == '') {
