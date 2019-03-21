@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: 'Roboto Slab', serif;
   scroll-behavior: smooth;
+  color: #ddd;
 }
 
 .right{
@@ -88,8 +89,7 @@ h2 {
   margin: 1rem auto 0;
   text-align: center;
   font-size: 2rem;
-  color: #ddd;
-  -font-family: 'Roboto Slab', sans-serif;
+ -font-family: 'Roboto Slab', sans-serif;
   max-width: 60%;
 }
 .slogan{
@@ -107,7 +107,6 @@ h2 {
 .player {
   height: 100%;
   width: 100%;
-  background-color: #ddd;
 }
 
 .playerSection img{
@@ -140,19 +139,14 @@ h1 {
 p {
   padding: 0;
   margin: 0;
-  color: #ddd;
   font-size: 1.05rem;
   text-align: justify;
   text-indent: 2rem;
 }
 
-li{
-  color: #ddd;
-}
 
 h4{
     padding-top: 1rem;
-    color: #ddd;
 }
 
 /************************************************************Footer******************************************************************/
@@ -171,6 +165,41 @@ h4{
 /************************************************************Equipa******************************************************************/
 
 .equipa-container{
-  height: 100vh;
-  
+  top: 8rem;
+  height: 85vh;
+  position: relative;
+}
+
+.container-elemento-equipa{
+  height: 6rem;
+  width: 25rem;
+  margin: auto;
+  margin-top: 3rem;
+  text-align: left;
+}
+
+.container-elemento-equipa img {
+  width: 6rem;
+  float: left;
+}
+.profile-center{
+  padding-top: 1.5rem;
+  padding-left: 6rem;
+}
+
+.profile{
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  text-indent: 0; 
+  margin-left: 0.5rem;
+}
+
+.profile-name{
+  font-size: 1.1rem;
+}
+
+.profile-description{
+  font-size: 0.8rem;
+  color: #a6a6a6;
 }
