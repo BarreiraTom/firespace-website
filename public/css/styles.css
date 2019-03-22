@@ -7,11 +7,12 @@ body {
   color: #ddd;
 }
 
-.right{
-    float: right;
+.right {
+  float: right;
 }
-.left{
-    float: left;
+
+.left {
+  float: left;
 }
 
 .header {
@@ -31,8 +32,9 @@ body {
   color: #f59d2a;
   text-decoration: none;
 }
-.header ul{
-    padding: 0 2rem;
+
+.header ul {
+  padding: 0 2rem;
 }
 
 .li-nav {
@@ -42,9 +44,10 @@ body {
   /* top right bottom left */
 }
 
-.li-nav:hover{
+.li-nav:hover {
   cursor: pointer;
 }
+
 .li-nav:not(.li-logo):after {
   content: '';
   width: 0;
@@ -72,29 +75,32 @@ body {
   -bottom: 0.6rem;
 }
 
-.li-logo{
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    margin: auto;
-    width: 8rem;
-    height: 8rem;
+.li-logo {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  width: 8rem;
+  height: 8rem;
 }
-.li-logo img{
-    width: 100%;
+
+.li-logo img {
+  width: 100%;
 }
 
 h2 {
   margin: 1rem auto 0;
   text-align: center;
   font-size: 2rem;
- -font-family: 'Roboto Slab', sans-serif;
+  -font-family: 'Roboto Slab', sans-serif;
   max-width: 60%;
 }
-.slogan{
+
+.slogan {
   margin-top: 9rem;
 }
+
 /************************************************************Player Section Home******************************************************************/
 .playerSection {
   position: relative;
@@ -109,8 +115,8 @@ h2 {
   width: 100%;
 }
 
-.playerSection img{
-    width: 70%;
+.playerSection img {
+  width: 70%;
 }
 
 /************************************************************Section 1 Home******************************************************************/
@@ -119,12 +125,12 @@ h2 {
   padding: 7% 15%;
 }
 
-.txt-img{
-    width: 12rem;
-    margin: 0 0 0 3rem;
-    border-radius: 50%;
-    float: right;
-    shape-outside: circle();
+.txt-img {
+  width: 12rem;
+  margin: 0 0 0 3rem;
+  border-radius: 50%;
+  float: right;
+  shape-outside: circle();
 }
 
 h1 {
@@ -132,26 +138,26 @@ h1 {
   font-size: 3rem;
   color: #ee7738;
   font-family: 'Roboto', sans-serif;
-  margin-top: 5rem;
 }
 
 
 p {
   padding: 0;
   margin: 0;
-  font-size: 1.05rem;
+  font-size: 0.9rem;
   text-align: justify;
-  text-indent: 2rem;
+  text-indent: 3rem;
+
 }
 
 
-h4{
-    padding-top: 1rem;
-}
 
 /************************************************************Footer******************************************************************/
+h4 {
+  padding-top: 1rem;
+}
 
-.footer{
+.footer {
   position: relative;
   background-color: #2c3d4f;
   height: 7rem;
@@ -164,13 +170,13 @@ h4{
 
 /************************************************************Equipa******************************************************************/
 
-.equipa-container{
+.equipa-container {
   top: 8rem;
   height: 85vh;
   position: relative;
 }
 
-.container-elemento-equipa{
+.container-elemento-equipa {
   height: 6rem;
   width: 25rem;
   margin: auto;
@@ -182,24 +188,113 @@ h4{
   width: 6rem;
   float: left;
 }
-.profile-center{
+
+.profile-center {
   padding-top: 1.5rem;
   padding-left: 6rem;
 }
 
-.profile{
+.profile {
   margin: 0;
   padding: 0;
   text-align: left;
-  text-indent: 0; 
+  text-indent: 0;
   margin-left: 0.5rem;
 }
 
-.profile-name{
+.profile-name {
   font-size: 1.1rem;
 }
 
-.profile-description{
+.profile-description {
   font-size: 0.8rem;
   color: #a6a6a6;
+}
+
+@media only screen and (max-width: 700px) {
+  p {
+    font-size: 0.9rem;
+  }
+
+  .header {
+    height: 3.25rem;
+  }
+
+  .header ul {
+    padding: 0 1rem;
+  }
+
+  .li-nav {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    /* top right bottom left */
+  }
+
+  .li-logo {
+    margin: auto;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  h2 {
+    margin: 1rem auto 0;
+    text-align: center;
+    font-size: 2rem;
+    -font-family: 'Roboto Slab', sans-serif;
+    max-width: 60%;
+  }
+
+  .slogan {
+    margin-top: 4.5rem;
+    font-size: 1rem;
+  }
+
+  /************************************************************Player Section Home******************************************************************/
+
+  .playerSection img {
+    width: 100%;
+  }
+
+  /************************************************************Section 1 Home******************************************************************/
+  .section1 {
+    position: relative;
+    padding: 7% 15% 18%;
+  }
+
+  .txt-img {
+    width: 7rem;
+    position: absolute;
+    margin: auto;
+    float: none;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    margin-top: 1rem;
+  }
+
+
+  p {
+    font-size: 0.83rem;
+    text-align: justify;
+    text-indent: 2rem;
+  }
+
+
+  /************************************************************Footer******************************************************************/
+  h4{
+    margin: 0;
+  }
+  .footer {
+    height: 8rem;
+  }
+
+  .footer p {
+    text-align: center;
+  }
 }
