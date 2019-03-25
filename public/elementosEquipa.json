@@ -1,0 +1,20 @@
+[
+  {
+    "_id": 1,
+    "name":  "Tomás Barreira",
+    "description": "Estudante Engenharia Informatica - ULP",
+    "country": "PT"
+  },
+  {
+    "_id": 2,
+    "name": "Jorge Gonçalves",
+    "description": "Estudante Engenharia Informatica - ULP",
+    "country" : "PT" 
+  },
+  {
+    "_id": 3,
+    "name": "Vera Oliveira",
+    "description": "Estudante Engenharia Informatica - ULP",
+    "country": "PT"
+  }
+]
