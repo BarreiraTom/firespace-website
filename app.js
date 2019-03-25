@@ -2,12 +2,16 @@
 /* eslint-disable no-unused-vars */
 const express = require('express');
 const ejs = require('ejs');
+const fs = require('fs');
 
 const app = express();
 
 app.set('view engine', 'ejs');
 
 app.use(express.static('public'));
+
+let elementosEquipa = fs.readFileSync(__dirname + '/public/elementosEquipa.json');
+let jsonElementosEquipa = JSON.parse(elementosEquipa);
 
 app.route('/')
   .get(function (req, res) {
@@ -16,7 +20,8 @@ app.route('/')
 
 app.route('/equipa')
   .get(function(req, res){
-    res.render('equipa');
+    res.render('equipa', {jsonElementosEquipa});
+    
   });
 
 let port = process.env.PORT;

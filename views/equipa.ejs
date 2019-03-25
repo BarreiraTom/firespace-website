@@ -1,11 +1,14 @@
 <%- include("partials/header") -%>
 <div class="equipa-container">
+
+  <% jsonElementosEquipa.forEach(function(elemento){ %>
   <div class="container-elemento-equipa">
     <img src="/images/profile.svg" alt="profile picture">
     <div class="profile-center">
-      <p class="profile profile-name">Tomás Barreira</p>
-      <p class="profile profile-description">Estudante Engenharia Informatica - ULP</p>
-    </div>  
+      <p class="profile profile-name"><%= elemento.name%></p>
+      <p class="profile profile-description"><%= elemento.description%></p>
     </div>
+  </div>
+  <% }); %>
 </div>
 <%- include("partials/footer") -%>
