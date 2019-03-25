@@ -106,7 +106,7 @@ h2 {
   position: relative;
   /*top: 7rem;*/
   /*min-height: 20rem;*/
-  padding: 7% 15% 0 15%;
+  padding: 2% 15% 0 15%;
   text-align: center;
 }
 
@@ -165,7 +165,6 @@ h4 {
 }
 
 .footer p {
-  font-size: 9pt;
   text-indent: 0;
   text-align: center;
   margin: 0 5%;
@@ -311,6 +310,7 @@ h4 {
   }
 
   .footer p {
+    font-size: 9pt;
     text-align: center;
   }
 }
